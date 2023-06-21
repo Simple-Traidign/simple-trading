@@ -1,0 +1,86 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 60px 60px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 10%;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.logo p{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.navbar-links ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.navbar-links ul li{
+    list-style: none;
+}
+
+.navbar-links ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.navbar-links ul li a:hover{
+    border-bottom: 2px solid #FDFF9C;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-butoon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover{
+    color: #fff;
+}
+
+.btn-secondary{
+    background: #9A761B;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 39px;
+    margin-left: 20px;
+}
+

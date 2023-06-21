@@ -1,0 +1,59 @@
+.home-container{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.content {
+    width: 60%;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.content h1 strong{
+    font-weight: 600;
+}
+
+.content p{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.content div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 100px;
+}
+
+.content div button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.play{
+    background-color: transparent;
+    color: #9A761B;
+
+}
+.content div button.btn-active{
+    background-color: #9A761B;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.image{
+    width: 40%;
+}
