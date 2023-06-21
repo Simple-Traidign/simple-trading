@@ -1,18 +1,14 @@
 import React from "react"
-import Navbar from "./Navbar"
 
-import Computer from "../assets/images/computer.png"
+import Computer from "../../assets/images/computer.png"
 
 import { FaPlayCircle } from "react-icons/fa"
 
-import "../assets/stylesheets/Home.css"
+import "../../assets/stylesheets/Banner.css"
 
-const Home = () => {
+const Banner = () => {
     return (
-
-        <div className="home">
-            <Navbar />
-            <div className="home-container">
+        <div className="home-container">
                 <div className="home-content content">
                     <h1>
                         Cambia tu mentalidad y cambiaras tus<strong> Resultados</strong>
@@ -34,8 +30,7 @@ const Home = () => {
                     <img src={Computer} alt="computer" />
                 </div>
             </div>
-        </div>
     )
 }
 
-export default Home
+export default Banner

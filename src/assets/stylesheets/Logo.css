@@ -1,0 +1,24 @@
+.logo-content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 100px;
+}
+
+.logo-content div{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-content div img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-content div img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}

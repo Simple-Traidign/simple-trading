@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Logo from "../assets/images/logo.png"
+import Logo from "../../assets/images/logo.png"
 import { HiOutlineMenu } from "react-icons/hi";
 
 
@@ -10,7 +10,7 @@ import {
     FaPhone
 } from 'react-icons/fa';
 
-import "../assets/stylesheets/Navbar.css"
+import "../../assets/stylesheets/Navbar.css"
 
 const Navbar = () => {
 
