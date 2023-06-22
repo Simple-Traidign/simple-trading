@@ -1,8 +1,8 @@
 import React from "react"
 
 import ImageFeature from "../../assets/images/feature-image.png"
-
 import ImageFeature2 from "../../assets/images/feature-image-2.png"
+import ImageFeature3 from "../../assets/images/feature-image-3.png"
 
 import "../../assets/stylesheets/Feature.css"
 
@@ -37,6 +37,25 @@ const Feature = () => {
                 </div>
                 <div>
                     <img src={ImageFeature2} alt="feature" />
+                </div>
+            </div>
+            <div className="feature-metus">
+                <div>
+                    <h2>
+                        Quispe ut <strong>Metus</strong>
+                    </h2>
+                    <span></span>
+                    <div>
+                        <p>PELLENTESQUE</p>
+                        <p>DONEC</p>
+                        <p>VESTIBULUM</p>
+                    </div>
+                    <p>
+                        Vivamus el luctus marius. Maecenas nisl libero, tincidunt id odio id, hendrerit tempus eros. Nullam quis ultrici
+                    </p>
+                </div>
+                <div>
+                    <img src={ImageFeature3} alt="feature" />
                 </div>
             </div>
         </div>
