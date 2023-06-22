@@ -55,3 +55,68 @@ color: rgba(0, 0, 0, 0.54);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
+.feature-metus{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature-metus div{
+    width: 100%;
+    padding: 100px;
+}
+
+.feature-metus div h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 51px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 50px;
+}
+
+.feature-metus div h2 strong{
+    color: #000;
+}
+
+.feature-metus div span{
+    display: block;
+    width: 80px;
+    height: 10px;
+    background: #DBC81A;
+    margin: 20px 0;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+}
+
+.feature-metus div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature-metus div div p{
+    color: rgba(0, 0, 0, 0.54);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.feature-metus div div p:hover{
+    color: #DBC81A;
+    border-bottom: 2px solid #DBC81A;
+    cursor: pointer;
+}
+
+.feature-metus div p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
